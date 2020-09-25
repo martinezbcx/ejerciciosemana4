@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(174, 186, 190);
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px ;
+
+}
+
+.testClass {
+    color: rgb(96, 42, 221);
+    font-size: 150%;
+
+}
+
+.regular {
+    color:blue
+    font- size 100%;
+
+}
+
+table {
+    border: 1px solid rgb(22, 36, 223);
+    width: 90%;
+
+   
+}
+
+td {
+border: 1px solid black;
+text-align: left;
+padding: 8px;
+
+}
+
+tr:nth-child(even) {
+background-color: lightgray;
+
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+
+}
+
+#output {
+    color: green;
+    font: size 200%; ;
+ 
+
+}
+
+#google {
+
+    float: center;
+    height: 150px;
+}
+
+
+#text {
+    color: rgb(79, 79, 221);
+    font-size: 150%;
+    clear: left;
+}

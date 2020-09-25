@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4 Coursera</title>
+<link rel="stylesheet" type="text/css" href="ejerciciosem4.css">
+
+<!-- este se incorporo -->
+<script>
+    function myPrompt() {
+        var person = prompt("NICE TO MEET YOU. Please enter your name"); // the second string optional-la segunda cuerda opcional
+        if (person != "") {//! means "not equal to"-! significa "no es igual a"
+            document.getElementById("test").innerHTML =
+            "Hello " + person + "! How are you today, What is your progress in the Introduction to WEB development course ?";
+        }
+        else
+        {
+            alert("Hey you didn't enter your name!");
+        }
+    }
+</script>
+
+<!-- este se incorporo para alertas-->
+
+<script type="text/javascript">// y otra funcion
+    function diplayInput() //Function will display a blue version of input.La función mostrará una versión azul de la entrada.  https://martinezbcx.github.io/encantado2/encantado2.html   https://github.com/martinezbcx
+    {
+        
+        //declaracion de variables
+        var testInput = document.getElementById("name").value;
+        if(testInput.length == 0) // operador de iguialdad
+        {// IT IS GOOD TO USE WHITE SPACE LIKE INDENTS.ES BUENO UTILIZAR EL ESPACIO BLANCO COMO INDENTES.
+            document.getElementById("para").innerHTML = "Hey, you didnt type anything!"
+        }
+        else
+        document.getElementById("para").innerHTML = testInput;
+    }
+    
+    </script>
+
+    <!-- 
+        <script> 
+        function doMath() {
+            var x = 2;
+            var y = 10;
+            
+            var z = 4;
+
+            var answer = x * y / z;
+
+            document.getElementById("output").innerHTML = "The result is " + answer;
+
+        }
+    </script>
+-->
+
+</head>
+<body >
+
+<!-- este se incorporo para alertas -->
+
+    <p> JavaScript Prompt Box(cuadro de aviso de JavaScript)</p>
+    <button onclick="myPrompt()">Click me</button>
+    <p id="test"></p>
+    <h1 style="color:rgb(22, 36, 223)">Let's see another button. Write your hobby</h1>
+    <input id="name" type="text"/>
+    <button onclick="diplayInput();">Color It</button>
+    <p id="para" style="color:rgb(22, 36, 223)"></p>
+    
+
+
+    <section class="Whole">
+        <h1 style="color:rgb(62, 50, 173);font-size: 250%;">Interest site 1.<em>Belkis Coromoto Martinez</em>(introductory course to Web Development)
+            Semana 2</h1>
+        <details>
+            <p style="color:rgb(172, 12, 12);font-size: 190%;">
+                <summary> <em> Check <strong> MY BLOG you will find interesting articles fromyou can get
+                        various areas of interest, how programming, artificial intelligence, database among others. I
+                            INVITE YOU</strong> .
+            </p></em></summary>
+
+            <p>
+                I would like to be good in the area of ​​programming web pages, first because it is very interesting and
+                secondly it is an area with a lot of boom in this digitized world.
+            </p>
+            <iframe src="https://marketicoonline.blogspot.com/" frameborder="0" width="800" height="700"></iframe>
+        </details>
+    </section>
+
+
+
+<h1>My Blog </h1>
+
+<!--  
+    <button onclick="doMath();"> Do the Math </button>
+    <p id="output"></p>
+-->
+    
+         <img id="google" src="descarga.png"/> 
+         
+    <p id="text">This is the activity for week four.
+        This is a simple exercise.
+        HTML is the language used to develop internet pages. <em>It is made up of a series of labels that the browser interprets</em> and shapes on the screen. HTML has tags for images, hyperlinks that allow us to go to other pages, line breaks, lists, tables, etc.
+        HTML is a markup language, which means that it is written in code that can be read by a person without having to compile it first. In other words, the text on a web page is "flagged" with these codes to instruct the web browser on how to display the text.
+        HTML is the language used to develop internet pages. <em>It is made up of a series of labels that the browser interprets</em> and shapes on the screen. HTML has tags for images, hyperlinks that allow us to go to other pages, line breaks, lists, tables, etc.
+        HTML is a markup language, which means that it is written in code that can be read by a person without having to compile it first. In other words, the text on a web page is "flagged" with these codes to instruct the web browser on how to display the text.
+    </p>
+   
+    <p style="color: rgb(96, 42, 221);;font-size: 250%;">Activity planning table</p>
+    <!-- <p class="regular" >Activity planning table</p> -->
+    <p class="testClass">Here are reflected the different activities that we must follow to achieve success in the advertising area</p>
+
+    <table border="1" style="border:solid;">
+        <tr>
+            <td>Day 1</td><td>Digital marketing</td><td>30 minutes</td><td>Redes Sociales</td>
+            
+        </tr>
+        <tr>
+            <td>Day 2</td><td>Python programming</td><td>45 minutes</td><td>Anaconda</td>
+        </tr>
+        <tr>
+           <td>Day 3</td><td>SEO (hosting)</td><td>500 minutes</td><td>Cursos</td> 
+        </tr>
+        <tr>
+            <td>Day 4</td><td>Web Development</td><td>500 minutes</td><td>Coursera</td>  
+        </tr>
+        <tr>
+           <td>Day 5</td><td>Drafting</td><td>500 minutes</td><td>Escribir en blog</td>  
+        </tr>
+        <tr>
+            <td>Link and Image</td><td><img src="descarga.png"/></td>
+            
+            <td>
+                <!-- <a href="To go google"></a> -->
+
+                <a href="https://www.google.com/"> Go to google </a>
+
+                <td>
+                   
+                    <a href="https://www.w3schools.com/"> Go to w3schools </a> 
+                         
+                    </td>
+        </tr>
+    </table>
+
+</body>
+</html>
